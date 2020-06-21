@@ -1,0 +1,32 @@
+name: Update
+
+on:
+  push:
+  schedule: 
+    - cron: 0 0 * * 1
+
+jobs:
+  update:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: npm install, build, and test
+      run: |
+        npm install
+        npm run update
+      env:
+        CI: false
+    - name: commit update
+      run: |
+        git commit -m "Auto-update"
+        git push github HEAD:master
