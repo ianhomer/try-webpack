@@ -29,5 +29,7 @@ jobs:
         CI: false
     - name: commit update
       run: |
-        git commit -m "Auto-update"
-        git push github HEAD:master
+        git config --local user.email "auto@purplepip.com"
+        git config --local user.name "Purple Pip Robot"
+        git commit -am "Auto-update"
+        git push
