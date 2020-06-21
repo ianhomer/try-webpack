@@ -24,6 +24,7 @@ jobs:
       run: |
         npm install
         npm run update
+        npm install
       env:
         CI: false
     - name: commit update
