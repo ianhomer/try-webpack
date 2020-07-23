@@ -28,7 +28,9 @@ jobs:
         CI: false
     - name: commit update
       run: |
-        git config --local user.email "auto@purplepip.com"
-        git config --local user.name "Purple Pip Robot"
-        git commit -am "Auto-update"
-        git push
+        if ! git diff --quiet --exit-code ; then
+          git config --local user.email "auto@purplepip.com"
+          git config --local user.name "Purple Pip Robot"
+          git commit -am "Auto-update"
+          git push
+        fi
