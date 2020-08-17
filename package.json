@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/ianhomer/try-webpack#readme",
   "dependencies": {
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
-    "acorn": ">=7.4.0",
+    "acorn": ">=8.0.1",
     "css-loader": "^4.2.1",
     "html-webpack-plugin": "^4.3.0",
     "minimist": ">=1.2.5",
