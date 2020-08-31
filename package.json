@@ -26,8 +26,8 @@
   },
   "devDependencies": {
     "acorn": ">=8.0.1",
-    "css-loader": "^4.2.1",
-    "html-webpack-plugin": "^4.3.0",
+    "css-loader": "^4.2.2",
+    "html-webpack-plugin": "^4.4.1",
     "minimist": ">=1.2.5",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
