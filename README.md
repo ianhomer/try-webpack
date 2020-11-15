@@ -7,4 +7,3 @@ Build
 Run
 
     open src/main/webapp/index.html
-
