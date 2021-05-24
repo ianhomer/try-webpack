@@ -29,13 +29,13 @@
   },
   "devDependencies": {
     "acorn": ">=8.2.4",
-    "css-loader": "^5.2.4",
+    "css-loader": "^5.2.5",
     "format-package": "^6.1.0",
     "html-webpack-plugin": "^5.3.1",
     "minimist": ">=1.2.5",
     "prettier": "^2.3.0",
     "style-loader": "^2.0.0",
-    "webpack": "^5.37.0",
+    "webpack": "^5.37.1",
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2"
   }
