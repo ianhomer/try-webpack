@@ -28,7 +28,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "acorn": ">=8.7.0",
+    "acorn": ">=8.7.1",
     "css-loader": "^6.7.1",
     "format-package": "^7.0.0",
     "html-webpack-plugin": "^5.5.0",
