@@ -32,7 +32,7 @@
     "css-loader": "^6.7.1",
     "format-package": "^7.0.0",
     "html-webpack-plugin": "^5.5.0",
-    "minimist": ">=1.2.6",
+    "minimist": ">=1.2.7",
     "prettier": "^2.7.1",
     "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
