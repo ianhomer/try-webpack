@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "acorn": ">=8.8.1",
-    "css-loader": "^6.7.2",
+    "css-loader": "^6.7.3",
     "format-package": "^7.0.0",
     "html-webpack-plugin": "^5.5.0",
     "minimist": ">=1.2.7",
