@@ -2,7 +2,7 @@ import { describe, it } from 'node:test'
 import { strictEqual, match }  from 'node:assert'
 const BASE_URL = 'http://localhost:8080'
 
-// 
+// lightweight no framework e2e test 
 describe('web app', () => {
   it('should have content', async () => {
     const request = await fetch(`${BASE_URL}/`, {
