@@ -5,11 +5,13 @@ module.exports = {
   entry: "./src/main/js/index.js",
   devtool: "inline-source-map",
   devServer: {
-    contentBase: "./target/webapp",
+    static: {
+      directory: path.join(__dirname, 'target/webapp/src/main/webapp')
+    }
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Output Management",
+      title: "Title from webpack config",
       filename: "src/main/webapp/index.html",
     }),
   ],
