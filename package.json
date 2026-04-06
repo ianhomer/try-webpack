@@ -26,7 +26,7 @@
     "watch": "webpack --watch --mode development"
   },
   "dependencies": {
-    "lodash": "^4.17.23"
+    "lodash": "^4.18.1"
   },
   "devDependencies": {
     "acorn": ">=8.16.0",
